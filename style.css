@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kayseri {
+    margin: 7px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-itemler {
+
+    padding: 5px;
+    font-size: medium;
+    text-align: center;
+}
+
+.gridler {
+    width: 500px;
+    display: grid;
+    grid-template-areas:
+        'IncomingOffers bos bos bos'
+        'MustafaSelmanÖNAL ApplicationDate date Dropdownmenu'
+        'MustafaSelmanÖNAL BidAmount isaret Dropdownmenu'
+        'MustafaSelmanÖNAL Email onalgmailcom Button'
+        'MustafaSelmanÖNAL Telephone Number Button'
+    ;
+}
+
+.item-1 {
+    grid-area: IncomingOffers;
+    text-align: center;
+    padding: 10px;
+}
+
+.item-bos {
+    grid-area: bos;
+}
+
+.item-2 {
+    grid-area: MustafaSelmanÖNAL;
+    width: 135px;
+}
+
+.item-3 {
+    grid-area: ApplicationDate;
+    text-align: center;
+}
+
+.item-x {
+    grid-area: date;
+    text-align: end;
+}
+
+.item-4 {
+    grid-area: BidAmount;
+    text-align: start;
+}
+
+.item-5 {
+    grid-area: isaret;
+    text-align: end;
+}
+
+.item-6 {
+    grid-area: Email;
+    text-align: start;
+}
+
+.item-7 {
+    grid-area: onalgmailcom;
+    text-align: end;
+}
+
+.item-8 {
+    grid-area: Telephone;
+    text-align: start;
+}
+
+.item-9 {
+    grid-area: Number;
+    text-align: end;
+}
+
+.item-10 {
+    grid-area: Dropdownmenu;
+    
+}
+
+.item-11 {
+    grid-area: Button;
+    
+}
